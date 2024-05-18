@@ -41,5 +41,6 @@ E-mail: emiraydn2001@gmail.com
 
 To install the required packages, run the following command:
 ```bash
-pip install PyPDF2 pandas openpyxl
-
+pip install PyPDF2
+pip install pandas
+pip install openpyxl
