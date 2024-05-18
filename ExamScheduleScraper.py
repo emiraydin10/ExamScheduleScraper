@@ -3,11 +3,11 @@ import pandas as pd
 from openpyxl import load_workbook
 
 # Path to the PDF file
-pdf_path = '/Users/emiraydin/Desktop/My Projects/ExamScheduleScraper/pythonProject1/2023-2024-spring-final-exam-schedule-v01.pdf'
+pdf_path = '' #Specify pdf path
 reader = PyPDF2.PdfReader(pdf_path)
 
 # List of courses to search for
-myCourses = ['ENG 102', 'MATH 101', 'LIBE 140', 'LIBE 110', 'TUR 102', 'CMPE 114', 'TEDU 102']
+myCourses = [''] #type the course codes you want to scrape like 'ABC 101'
 
 # List to store extracted data
 data = []
